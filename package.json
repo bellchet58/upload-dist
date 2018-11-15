@@ -1,0 +1,32 @@
+{
+  "name": "upload-dist",
+  "version": "1.0.0",
+  "description": "using axios to upload packed dist directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellchet58/upload-dist.git"
+  },
+  "keywords": [
+    "axios",
+    "upload"
+  ],
+  "bin": {
+    "upload-dist": "./bin/upload-dist.js"
+  },
+  "author": "bellchet58",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bellchet58/upload-dist/issues"
+  },
+  "homepage": "https://github.com/bellchet58/upload-dist#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "form-data": "^2.3.3"
+  }
+}
