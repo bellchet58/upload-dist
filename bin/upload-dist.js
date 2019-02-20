@@ -18,7 +18,7 @@ program.command('sync <uploadUrl> [relativeDir]')
       cmd.addConf = program.addConf
       if (cmd.addConf) {
         return confController.createApacheConf({ projectDomain: typeof cmd.addConf === 'boolean' ? null : cmd.addConf, uploadUrl }).then(resp => {
-          resp.data.success ? console.log(chalk.green('conf create success!')) : console.log(chalk.red('conf create failed!\n Try Again!'), resp.data.msg)
+          resp.data.success ? console.log(chalk.green('conf create success!')) : console.log(chalk.red('conf create failed!\n Try Again!'), chalk.blue(resp.data.msg))
         })
       }
     }).catch(err => {
