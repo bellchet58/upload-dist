@@ -1,6 +1,6 @@
 {
   "name": "upload-dist",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "using axios to upload packed dist directory",
   "main": "index.js",
   "scripts": {
